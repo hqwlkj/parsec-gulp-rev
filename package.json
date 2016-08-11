@@ -1,0 +1,57 @@
+{
+  "name": "parsec-gulp-rev",
+  "version": "1.1.0",
+  "description": "Static asset revisioning by appending content hash to filenames: unicorn.css => unicorn.css?v=84bd1b9a2c",
+  "license": "MIT",
+  "repository": "parsec-gulp-rev",
+  "author": {
+    "name": "Yanghc",
+    "email": "hqwlkj@outlook.com",
+    "url": "http://www.parsec.com.cn"
+  },
+  "maintainers": [],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "rev",
+    "revving",
+    "revision",
+    "hash",
+    "optimize",
+    "version",
+    "versioning",
+    "cache",
+    "expire",
+    "static",
+    "asset",
+    "assets"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "modify-filename": "^1.1.0",
+    "object-assign": "^4.0.1",
+    "rev-hash": "^1.0.0",
+    "parsec-rev-path": "^1.0.0",
+    "sort-keys": "^1.0.0",
+    "through2": "^2.0.0",
+    "vinyl-file": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "envs": [
+      "node",
+      "mocha"
+    ]
+  }
+}
